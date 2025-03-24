@@ -1,0 +1,77 @@
+.outputPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 100px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.flipping-new {
+  width: 67.2px;
+  height: 67.2px;
+  display: flex;
+}
+
+.flipping-new::before,
+.flipping-new::after {
+  content: "";
+  flex: 1;
+  animation: flipping-new-r4sfc4md 1.5s -0.25s infinite linear alternate both;
+}
+
+.flipping-new::after {
+  --s: -1, -1;
+  animation-delay: 0.5s;
+}
+
+@keyframes flipping-new-r4sfc4md {
+  0%,
+  30% {
+    transform: scale(var(--s, 1)) translate(0px) perspective(168px)
+      rotateY(0deg);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 0 75%, 0 25%);
+    background: #e33cef;
+  }
+
+  37.5% {
+    transform: scale(var(--s, 1)) translate(-11.2px) perspective(168px)
+      rotateX(0deg);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 0 75%, 0 25%);
+    background: #e33cef;
+  }
+
+  50% {
+    transform: scale(var(--s, 1)) translate(-11.2px) perspective(168px)
+      rotateX(-90deg);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 0 75%, 0 25%);
+    background: #e33cef;
+    border-radius: 0;
+  }
+
+  50.01% {
+    transform: scale(var(--s, 1)) translate(-11.2px) perspective(168px)
+      rotateX(-90.1deg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 25%);
+    background: #4cafff;
+    border-radius: 112px 0 0 112px;
+  }
+
+  62.5% {
+    transform: scale(var(--s, 1)) translate(-11.2px) perspective(168px)
+      rotateX(-180deg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 25%);
+    background: #4cafff;
+    border-radius: 112px 0 0 112px;
+  }
+
+  70%,
+  100% {
+    transform: scale(var(--s, 1)) translate(0px) perspective(168px)
+      rotateX(-180deg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 25%);
+    background: #4cafff;
+    border-radius: 112px 0 0 112px;
+  }
+}

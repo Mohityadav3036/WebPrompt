@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+body {
+  color: white;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(./assets/fonts/font1.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(./assets/fonts/font2.woff2);
+}
+@font-face {
+  font-family: font3;
+  src: url(./assets/fonts/font3.woff2);
+}
+@font-face {
+  font-family: font4;
+  src: url(./assets/fonts/font4.woff2);
+}
+@font-face {
+  font-family: font5;
+  src: url(./assets/fonts/font5.woff2);
+}
+@font-face {
+  font-family: font6;
+  src: url(./assets/fonts/font6.woff2);
+}
+@font-face {
+  font-family: font7;
+  src: url(./assets/fonts/font7.woff2);
+}
+@font-face {
+  font-family: font8;
+  src: url(./assets/fonts/font8.woff2);
+}
+@font-face {
+  font-family: font9;
+  src: url(./assets/fonts/font9.woff2);
+}
+@font-face {
+  font-family: font10;
+  src: url(./assets/fonts/font10.woff2);
+}
+@font-face {
+  font-family: font11;
+  src: url(./assets/fonts/font11.woff2);
+}
+@font-face {
+  font-family: font12;
+  src: url(./assets/fonts/font12.woff2);
+}
+@font-face {
+  font-family: font13;
+  src: url(./assets/fonts/font13.woff2);
+}
+@font-face {
+  font-family: font14;
+  src: url(./assets/fonts/font14.woff2);
+}
+@font-face {
+  font-family: font15;
+  src: url(./assets/fonts/font15.woff2);
+}
+@font-face {
+  font-family: font16;
+  src: url(./assets/fonts/font16.woff2);
+}
+@font-face {
+  font-family: font17;
+  src: url(./assets/fonts/font17.woff2);
+}
+@font-face {
+  font-family: font18;
+  src: url(./assets/fonts/font17.woff2);
+}
+@font-face {
+  font-family: font19;
+  src: url(./assets/fonts/one.ttf);
+}
