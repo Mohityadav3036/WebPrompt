@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-       "https://webpompt.vercel.app",
+      
        "https://webprompt-xi.vercel.app"
     ], // Allow only your frontend domain
     credentials: true, // Allow sending cookies/auth headers
