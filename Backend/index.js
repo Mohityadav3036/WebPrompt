@@ -13,9 +13,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://weblyai.vercel.app",
-      "https://weblyai.vercel.app/websitegenerator",
-      "http://localhost:5173"
+      "http://localhost:5173",
+       "https://webpompt.vercel.app/"
     ], // Allow only your frontend domain
     credentials: true, // Allow sending cookies/auth headers
     methods: "GET,POST,PUT,DELETE",

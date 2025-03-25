@@ -349,7 +349,7 @@ export default defineConfig({
 
       if (errorCode) {
         errorFreeCode = await axios.post(
-          "http://localhost:3001/api/errorcorrection",
+          "https://webprompt-1.onrender.com/api/errorcorrection",
           {
             code: codeResponse,
             error: errorCode,
@@ -424,7 +424,7 @@ export default defineConfig({
     try {
       const dependencies = localStorage.getItem("dependencies");
       const response = await axios.get(
-        "http://localhost:3001/api/get-command",
+        "https://webprompt-1.onrender.com/api/get-command",
         { dependencies }
       );
       const {

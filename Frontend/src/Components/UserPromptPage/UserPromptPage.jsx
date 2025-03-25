@@ -32,7 +32,7 @@ const UserPromptPage = () => {
     setToggle(!toggle);
     try {
       const data = await axios.post(
-        "http://localhost:3001/api/get-user-prompt",
+        "https://webprompt-1.onrender.com/api/get-user-prompt",
         {
           userPrompt,
           userId: localStorage.getItem("userId"),
