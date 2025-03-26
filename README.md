@@ -56,7 +56,8 @@ To run WebPrompt locally, follow these steps:
    ```
 
 ## Preview  
-![WebPrompt Screenshot](![webprompt](https://github.com/user-attachments/assets/cc6df8db-b49c-45c8-9cfa-0ee3eeade580)
+![WebPrompt Screenshot](![webprompt](![webprompt](https://github.com/user-attachments/assets/9cecc508-b0bd-440d-b8d1-176fdec2dc1f)
+)
 )
 
 ## Deployment  
