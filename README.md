@@ -56,9 +56,9 @@ To run WebPrompt locally, follow these steps:
    ```
 
 ## Preview  
-![WebPrompt Screenshot](![webprompt](![webprompt](https://github.com/user-attachments/assets/9cecc508-b0bd-440d-b8d1-176fdec2dc1f)
+![WebPrompt Screenshot](![webprompt](https://github.com/user-attachments/assets/9cecc508-b0bd-440d-b8d1-176fdec2dc1f)
 
-)
+
 
 ## Deployment  
 WebPrompt is deployed online and can be accessed at: [Your WebPrompt Link](https://webprompt-xi.vercel.app/)
